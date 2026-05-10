@@ -47,7 +47,7 @@ scripts/
 README.md
 sonar-project.properties
 
-1. Start SonarQube
+# 1. Start SonarQube
 Start Existing Container
 docker start sonarqube
 OR Create New SonarQube Container
@@ -61,13 +61,15 @@ Default credentials:
 
 Username: admin
 Password: admin
-2. Run SonarScanner
+
+# 2. Run SonarScanner
 
 Move into LMS project directory:
 
 cd LMS-project
 
-Run scanner:
+
+# Run scanner:
 
 sonar-scanner.bat ^
 -D"sonar.projectKey=LMS-Project" ^
